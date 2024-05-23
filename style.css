@@ -47,6 +47,16 @@ nav img{
   cursor: pointer;
 }
 
+nav .navigation{
+  display: flex;
+}
+
+#menu-btn{
+  width: 30px;
+  height: 30px;
+}
+
+
 nav .navigation ul{
   display: flex;
   justify-content: flex-end;
@@ -464,6 +474,12 @@ footer .copyright .pro-links i:hover{
 /* responsive */
 
 @media (max-width: 769px) {
+  nav{
+      padding: 15px 20px;
+  }
+  nav img{
+    width: 130px;
+  }
 }
 
 
